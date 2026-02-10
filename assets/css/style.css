@@ -1128,12 +1128,14 @@ body.nav-active { overflow: hidden; }
 .testi {
   padding-block-end: 340px;
   position: static;
+  color: var(--gold-crayola);;
 }
 
 .testi .quote {
   font-size: 7rem;
   font-family: var(--fontFamily-forum);
   line-height: 0.7em;
+  color: var(--black);
 }
 
 .testi .wrapper {
@@ -1141,6 +1143,7 @@ body.nav-active { overflow: hidden; }
   justify-content: center;
   gap: 2px;
   margin-block: 40px 50px;
+  color: var(--black);
 }
 
 .testi .separator { animation: rotate360 15s linear infinite; }
@@ -1152,7 +1155,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .testi .profile-name {
-  color: var(--gold-crayola);
+  color: var(--black);
   font-weight: var(--weight-bold);
   text-transform: uppercase;
   letter-spacing: var(--letterSpacing-3);
